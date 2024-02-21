@@ -1,0 +1,63 @@
+body{
+    font-family: "Manrope", sans-serif;
+    background-color: var(--background-color);
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: min(30rem, 85%);
+    height: 250px;
+    background-color: var(--advice-card-color);
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.card .title{
+    text-transform: uppercase;
+    color: var(--advice-dice-color);
+    font-size: 12px;
+    letter-spacing: 5px;
+    display: flex;
+}
+
+
+
+.card .conselho{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card img{
+    width: 80%;
+}
+
+.card .botao{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--advice-dice-color);
+    position: absolute;
+    bottom: -25px;
+}
+
+.card .botao:hover{
+    color: #53ffab;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
+.card .botao .img-botao{
+   width: 35%;
+}
+

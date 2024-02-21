@@ -1,0 +1,9 @@
+@media(max-width: 768px){
+    .card{
+        width: min(15rem, 85%);
+        height: min(15rem, 85%);
+    }
+    .card .conselho{
+        font-size: 13px;
+    }
+}
